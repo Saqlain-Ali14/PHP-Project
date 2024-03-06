@@ -1,0 +1,125 @@
+
+        /* Edit button style */
+        .edit-button {
+            background-color: #4CAF50;
+            /* Green */
+            color: white;
+            padding: 13px 25px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+
+            font-size: 16px;
+            display: inline-block;
+        }
+
+        /* Delete button style */
+        .delete-button {
+            background-color: #f44336;
+            /* Red */
+            color: white;
+            padding: 10px 25px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        /* ///////Border Setting///// */
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        /* //////INput Fields// */
+
+
+        .form-input {
+            margin-top: 20px;
+            width: 18%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+
+        .form-input:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 8px rgba(52, 152, 219, 0.6);
+        }
+
+        .form-button {
+            background-color: #2ecc71;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            font-size: 15px;
+            margin-left: 18px;
+
+        }
+
+        .form-button:hover {
+            background-color: #27ae60;
+        }
+
+        .form-button:focus {
+            border-color: #3498db;
+            box-shadow: 0 0 8px rgba(52, 152, 219, 0.6);
+        }
+
+        .welcome-heading {
+            font-size: 32px;
+            color: #3498db;
+            /* Blue color */
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #3498db;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-button:hover {
+            background-color: #2980b9;
+        }
+        
+      
+
+
+       
+
+        
+
+
+
